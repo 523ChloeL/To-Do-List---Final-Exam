@@ -33,7 +33,7 @@ function loadList(array) {
 }
 //clear local localStorage
 clear.addEventListener("click", function() {
-  localStorage.clear;
+  localStorage.clear();
   location.reload();
 });
 //show today's date
